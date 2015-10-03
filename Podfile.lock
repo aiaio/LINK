@@ -27,12 +27,16 @@ PODS:
   - EVReflection (2.9.3)
   - IOSLinkedInAPI (2.0.0):
     - AFNetworking (>= 2.0.0)
+  - NRSimplePlist (HEAD based on 1.0)
+  - SwiftyUserDefaults (2.0.0)
 
 DEPENDENCIES:
   - AlecrimCoreData (= 4.0-beta.1)
   - Cartography (~> 0.6)
   - EVCloudKitDao (~> 2.8)
   - IOSLinkedInAPI (~> 2.0)
+  - NRSimplePlist (HEAD)
+  - SwiftyUserDefaults
 
 SPEC CHECKSUMS:
   AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
@@ -41,5 +45,7 @@ SPEC CHECKSUMS:
   EVCloudKitDao: 990a73dcdcb1fe45097dc4af00b4e178d9920ac2
   EVReflection: f4c02083c3f74ee81d379de4bedd771b1f16a9b7
   IOSLinkedInAPI: d0adc664472d471b0df9b2aad92a2d82de926c40
+  NRSimplePlist: 7d78950b66d25855283a96f08188129c783d373a
+  SwiftyUserDefaults: 1266e9734c68bcfbac8294ee84173dc8ba6db312
 
 COCOAPODS: 0.39.0.beta.5
