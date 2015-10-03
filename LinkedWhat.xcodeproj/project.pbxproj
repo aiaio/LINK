@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C57465D1BC02BA400C9313A /* TIMLinkedin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57465C1BC02BA400C9313A /* TIMLinkedin.swift */; settings = {ASSET_TAGS = (); }; };
+		0C57465E1BC02BA400C9313A /* TIMLinkedin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57465C1BC02BA400C9313A /* TIMLinkedin.swift */; settings = {ASSET_TAGS = (); }; };
+		0C57465F1BC02BA400C9313A /* TIMLinkedin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57465C1BC02BA400C9313A /* TIMLinkedin.swift */; settings = {ASSET_TAGS = (); }; };
+		0C5746661BC02D7B00C9313A /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5746651BC02D7B00C9313A /* settings.plist */; settings = {ASSET_TAGS = (); }; };
+		0C5746671BC02D7B00C9313A /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5746651BC02D7B00C9313A /* settings.plist */; settings = {ASSET_TAGS = (); }; };
+		0C5746681BC02D7B00C9313A /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5746651BC02D7B00C9313A /* settings.plist */; settings = {ASSET_TAGS = (); }; };
 		0CD172D51BC02486003F5297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD172D41BC02486003F5297 /* AppDelegate.swift */; };
 		0CD172D71BC02486003F5297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD172D61BC02486003F5297 /* ViewController.swift */; };
 		0CD172DA1BC02486003F5297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD172D81BC02486003F5297 /* Main.storyboard */; };
@@ -15,6 +21,9 @@
 		0CD172E21BC02486003F5297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD172E01BC02486003F5297 /* LaunchScreen.storyboard */; };
 		0CD172ED1BC02486003F5297 /* LinkedWhatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD172EC1BC02486003F5297 /* LinkedWhatTests.swift */; };
 		0CD172F81BC02486003F5297 /* LinkedWhatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD172F71BC02486003F5297 /* LinkedWhatUITests.swift */; };
+		0CFD55481BC029B100B2C766 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD55471BC029B100B2C766 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0CFD55491BC029B100B2C766 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD55471BC029B100B2C766 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0CFD554A1BC029B100B2C766 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD55471BC029B100B2C766 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		AA8FFF9564C90096E2D63A9F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D01B3431051821B8A6E3116 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -36,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C57465C1BC02BA400C9313A /* TIMLinkedin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIMLinkedin.swift; sourceTree = "<group>"; };
+		0C5746651BC02D7B00C9313A /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
 		0CD172D11BC02486003F5297 /* LinkedWhat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedWhat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD172D41BC02486003F5297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CD172D61BC02486003F5297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +61,7 @@
 		0CD172F31BC02486003F5297 /* LinkedWhatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedWhatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD172F71BC02486003F5297 /* LinkedWhatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedWhatUITests.swift; sourceTree = "<group>"; };
 		0CD172F91BC02486003F5297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CFD55471BC029B100B2C766 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1D01B3431051821B8A6E3116 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F0F9A3233359E6F6D0DA7B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AE27B5E79058C69A9AD10762 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C57465B1BC02B8D00C9313A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C57465C1BC02BA400C9313A /* TIMLinkedin.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		0CD172C81BC02486003F5297 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +126,8 @@
 		0CD172D31BC02486003F5297 /* LinkedWhat */ = {
 			isa = PBXGroup;
 			children = (
+				0C57465B1BC02B8D00C9313A /* Models */,
+				0CFD55461BC0299600B2C766 /* Views */,
 				0CD172D41BC02486003F5297 /* AppDelegate.swift */,
 				0CD172D61BC02486003F5297 /* ViewController.swift */,
 				0CD172D81BC02486003F5297 /* Main.storyboard */,
@@ -113,6 +135,7 @@
 				0CD172E01BC02486003F5297 /* LaunchScreen.storyboard */,
 				0CD172E31BC02486003F5297 /* Info.plist */,
 				0CD172DB1BC02486003F5297 /* LinkedWhat.xcdatamodeld */,
+				0C5746651BC02D7B00C9313A /* settings.plist */,
 			);
 			path = LinkedWhat;
 			sourceTree = "<group>";
@@ -133,6 +156,14 @@
 				0CD172F91BC02486003F5297 /* Info.plist */,
 			);
 			path = LinkedWhatUITests;
+			sourceTree = "<group>";
+		};
+		0CFD55461BC0299600B2C766 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CFD55471BC029B100B2C766 /* LoginViewController.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		DE8878E8BB9CFDCCE574AB9B /* Frameworks */ = {
@@ -259,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CD172E21BC02486003F5297 /* LaunchScreen.storyboard in Resources */,
+				0C5746661BC02D7B00C9313A /* settings.plist in Resources */,
 				0CD172DF1BC02486003F5297 /* Assets.xcassets in Resources */,
 				0CD172DA1BC02486003F5297 /* Main.storyboard in Resources */,
 			);
@@ -268,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5746671BC02D7B00C9313A /* settings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5746681BC02D7B00C9313A /* settings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,9 +367,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CFD55481BC029B100B2C766 /* LoginViewController.swift in Sources */,
 				0CD172DD1BC02486003F5297 /* LinkedWhat.xcdatamodeld in Sources */,
 				0CD172D71BC02486003F5297 /* ViewController.swift in Sources */,
 				0CD172D51BC02486003F5297 /* AppDelegate.swift in Sources */,
+				0C57465D1BC02BA400C9313A /* TIMLinkedin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +379,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C57465E1BC02BA400C9313A /* TIMLinkedin.swift in Sources */,
+				0CFD55491BC029B100B2C766 /* LoginViewController.swift in Sources */,
 				0CD172ED1BC02486003F5297 /* LinkedWhatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +389,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C57465F1BC02BA400C9313A /* TIMLinkedin.swift in Sources */,
+				0CFD554A1BC029B100B2C766 /* LoginViewController.swift in Sources */,
 				0CD172F81BC02486003F5297 /* LinkedWhatUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
