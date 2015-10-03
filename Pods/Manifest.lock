@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking (2.6.0):
+    - AFNetworking/NSURLConnection (= 2.6.0)
+    - AFNetworking/NSURLSession (= 2.6.0)
+    - AFNetworking/Reachability (= 2.6.0)
+    - AFNetworking/Security (= 2.6.0)
+    - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/UIKit (= 2.6.0)
+  - AFNetworking/NSURLConnection (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.0)
+  - AFNetworking/Security (2.6.0)
+  - AFNetworking/Serialization (2.6.0)
+  - AFNetworking/UIKit (2.6.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AlecrimCoreData (4.0-beta.1)
+  - Cartography (0.6.0)
+  - EVCloudKitDao (2.8.5):
+    - EVReflection
+  - EVReflection (2.9.3)
+  - IOSLinkedInAPI (2.0.0):
+    - AFNetworking (>= 2.0.0)
+
+DEPENDENCIES:
+  - AlecrimCoreData (= 4.0-beta.1)
+  - Cartography (~> 0.6)
+  - EVCloudKitDao (~> 2.8)
+  - IOSLinkedInAPI (~> 2.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  AlecrimCoreData: 2f906ee6d182a9aa7c212d833e49430eb4af862b
+  Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
+  EVCloudKitDao: 990a73dcdcb1fe45097dc4af00b4e178d9920ac2
+  EVReflection: f4c02083c3f74ee81d379de4bedd771b1f16a9b7
+  IOSLinkedInAPI: d0adc664472d471b0df9b2aad92a2d82de926c40
+
+COCOAPODS: 0.39.0.beta.5
