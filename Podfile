@@ -6,5 +6,7 @@ pod 'NRSimplePlist', :git => 'https://github.com/broderboy/NRSimplePlist.git', :
 pod 'SwiftyUserDefaults'
 pod 'SVProgressHUD', :head
 pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+pod 'Fabric'
+pod 'Crashlytics'
 
 use_frameworks!
