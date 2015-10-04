@@ -26,6 +26,10 @@ class LoginViewController: UIViewController {
             client?.getAccessToken(code, success: { (accessTokenData) -> Void in
                 let accessToken = accessTokenData["access_token"]
                 
+                NSOperationQueue.mainQueue().addOperationWithBlock({
+                    self.performSegueWithIdentifier("showFacesSegue", sender: self)
+                })
+                
                 }, failure: { (error) -> Void in
                     //TODO handle
                     print(error)

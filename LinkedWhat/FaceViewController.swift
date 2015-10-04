@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 import SVProgressHUD
 import SwiftyJSON
+import Crashlytics
 
 class FaceViewController: UIViewController {
     @IBOutlet weak var leftView: UIView!
@@ -154,6 +155,13 @@ class FaceViewController: UIViewController {
         if value == person.title {
             message = "Correct!"
         }
+        
+        Answers.logCustomEventWithName("Answered",
+            customAttributes: [
+                "Title": person.title,
+                "Message": message
+            ]
+        )
         
         let alertController = UIAlertController(title: message, message: value, preferredStyle: .Alert)
         
