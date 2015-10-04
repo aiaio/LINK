@@ -27,7 +27,9 @@ PODS:
   - EVReflection (2.9.3)
   - IOSLinkedInAPI (2.0.0):
     - AFNetworking (>= 2.0.0)
-  - NRSimplePlist (HEAD based on 1.0)
+  - NRSimplePlist (1.0)
+  - SVProgressHUD (HEAD based on 1.1.3)
+  - SwiftyJSON (2.3.0)
   - SwiftyUserDefaults (2.0.0)
 
 DEPENDENCIES:
@@ -35,8 +37,25 @@ DEPENDENCIES:
   - Cartography (~> 0.6)
   - EVCloudKitDao (~> 2.8)
   - IOSLinkedInAPI (~> 2.0)
-  - NRSimplePlist (HEAD)
+  - NRSimplePlist (from `https://github.com/broderboy/NRSimplePlist.git`, branch `swift2`)
+  - SVProgressHUD (HEAD)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
   - SwiftyUserDefaults
+
+EXTERNAL SOURCES:
+  NRSimplePlist:
+    :branch: swift2
+    :git: https://github.com/broderboy/NRSimplePlist.git
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  NRSimplePlist:
+    :commit: 9497a4efbf6460ea2384b5f2680009621e25b3ce
+    :git: https://github.com/broderboy/NRSimplePlist.git
+  SwiftyJSON:
+    :commit: 3b5d0d4e0c19173b1bf0dc823bde25ad870f70c0
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
 
 SPEC CHECKSUMS:
   AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
@@ -45,7 +64,9 @@ SPEC CHECKSUMS:
   EVCloudKitDao: 990a73dcdcb1fe45097dc4af00b4e178d9920ac2
   EVReflection: f4c02083c3f74ee81d379de4bedd771b1f16a9b7
   IOSLinkedInAPI: d0adc664472d471b0df9b2aad92a2d82de926c40
-  NRSimplePlist: 7d78950b66d25855283a96f08188129c783d373a
+  NRSimplePlist: c27d95cb456281528885b3c48e15826cf12a970b
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  SwiftyJSON: 8d6b61a70277ef2a5d710d372e06e7e2d87fb9e4
   SwiftyUserDefaults: 1266e9734c68bcfbac8294ee84173dc8ba6db312
 
 COCOAPODS: 0.39.0.beta.5

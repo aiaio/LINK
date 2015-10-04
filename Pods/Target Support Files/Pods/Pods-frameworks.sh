@@ -91,6 +91,8 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/EVReflection.framework"
   install_framework "Pods/IOSLinkedInAPI.framework"
   install_framework "Pods/NRSimplePlist.framework"
+  install_framework "Pods/SVProgressHUD.framework"
+  install_framework "Pods/SwiftyJSON.framework"
   install_framework "Pods/SwiftyUserDefaults.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -101,5 +103,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/EVReflection.framework"
   install_framework "Pods/IOSLinkedInAPI.framework"
   install_framework "Pods/NRSimplePlist.framework"
+  install_framework "Pods/SVProgressHUD.framework"
+  install_framework "Pods/SwiftyJSON.framework"
   install_framework "Pods/SwiftyUserDefaults.framework"
 fi
