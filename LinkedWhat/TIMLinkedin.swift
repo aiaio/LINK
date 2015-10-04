@@ -12,20 +12,10 @@ import NRSimplePlist
 
 struct TIMLinkedin {
     
-    /*class func sharedInstance() -> TIMLinkedin! {
-        struct Static{
-            static let instance = TIMLinkedin();
-        }
-        return Static.instance;
-    }*/
-    
-    //let linkedinApplication: LIALinkedInApplication
-    
     static var client: LIALinkedInHttpClient? {
         let clientID: String
         let clientSecret: String
         
-        print("trying plist")
         do {
             clientID = try plistGet("clientId", forPlistNamed: "settings") as! String
             clientSecret = try plistGet("clientSecret", forPlistNamed: "settings") as! String
@@ -46,9 +36,8 @@ struct TIMLinkedin {
         return nil
     }
     
-
-    
     init() {
+        
     }
     
 }

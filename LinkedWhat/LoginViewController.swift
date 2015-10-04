@@ -22,7 +22,7 @@ class LoginViewController: UIViewController {
         client?.getAuthorizationCode({ (code) -> Void in
             //success
 
-            //TODO Store code and accessToken in a better way
+            //TODO Store code and accessToken in a better way (SwiftyUserDefaults)
             client?.getAccessToken(code, success: { (accessTokenData) -> Void in
                 let accessToken = accessTokenData["access_token"]
                 
