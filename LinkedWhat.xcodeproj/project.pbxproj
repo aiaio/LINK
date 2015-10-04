@@ -15,6 +15,7 @@
 		0C5746681BC02D7B00C9313A /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5746651BC02D7B00C9313A /* settings.plist */; settings = {ASSET_TAGS = (); }; };
 		0C57466A1BC0941F00C9313A /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5746691BC0941F00C9313A /* FaceViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		0C57466C1BC0B7A000C9313A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57466B1BC0B7A000C9313A /* Person.swift */; settings = {ASSET_TAGS = (); }; };
+		0C57466F1BC151DC00C9313A /* TIMImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57466E1BC151DC00C9313A /* TIMImageViewExtension.swift */; settings = {ASSET_TAGS = (); }; };
 		0CD172D51BC02486003F5297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD172D41BC02486003F5297 /* AppDelegate.swift */; };
 		0CD172D71BC02486003F5297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD172D61BC02486003F5297 /* ViewController.swift */; };
 		0CD172DA1BC02486003F5297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD172D81BC02486003F5297 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		0C5746651BC02D7B00C9313A /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
 		0C5746691BC0941F00C9313A /* FaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		0C57466B1BC0B7A000C9313A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		0C57466E1BC151DC00C9313A /* TIMImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIMImageViewExtension.swift; sourceTree = "<group>"; };
 		0CD172D11BC02486003F5297 /* LinkedWhat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedWhat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD172D41BC02486003F5297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CD172D61BC02486003F5297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,14 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		0C57466D1BC151B200C9313A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0C57466E1BC151DC00C9313A /* TIMImageViewExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		0CD172C81BC02486003F5297 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +141,7 @@
 		0CD172D31BC02486003F5297 /* LinkedWhat */ = {
 			isa = PBXGroup;
 			children = (
+				0C57466D1BC151B200C9313A /* Extensions */,
 				0C57465B1BC02B8D00C9313A /* Models */,
 				0CFD55461BC0299600B2C766 /* Views */,
 				0CD172D41BC02486003F5297 /* AppDelegate.swift */,
@@ -376,6 +387,7 @@
 				0CFD55481BC029B100B2C766 /* LoginViewController.swift in Sources */,
 				0CD172DD1BC02486003F5297 /* LinkedWhat.xcdatamodeld in Sources */,
 				0CD172D71BC02486003F5297 /* ViewController.swift in Sources */,
+				0C57466F1BC151DC00C9313A /* TIMImageViewExtension.swift in Sources */,
 				0C57466A1BC0941F00C9313A /* FaceViewController.swift in Sources */,
 				0C57466C1BC0B7A000C9313A /* Person.swift in Sources */,
 				0CD172D51BC02486003F5297 /* AppDelegate.swift in Sources */,

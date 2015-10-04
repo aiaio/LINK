@@ -34,6 +34,19 @@ class FaceViewController: UIViewController {
         super.init(coder: aDecoder)
     }
     
+    func setupImage() {
+        let url = NSURL(string: "https://40.media.tumblr.com/879c3dd27ef1dd020fc36cbccfcb5501/tumblr_nik0dyr3pz1s3xv3mo1_1280.jpg")
+        
+        let data = NSData(contentsOfURL: url!)
+        let image = UIImage(data: data!)
+        
+        self.faceImageView.contentMode = .Center
+        self.faceImageView.frame = self.faceImageView.frame
+        //self.faceImageView.image = image
+        
+        self.faceImageView.roundify()
+    }
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -41,6 +54,8 @@ class FaceViewController: UIViewController {
         leftButton.hidden = true
         rightButton.hidden = true
         faceImageView.hidden = true
+        
+        self.setupImage()
     }
     
     override func viewDidLoad() {
