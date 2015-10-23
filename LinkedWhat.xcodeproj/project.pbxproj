@@ -27,7 +27,7 @@
 		0CFD55481BC029B100B2C766 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD55471BC029B100B2C766 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		0CFD55491BC029B100B2C766 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD55471BC029B100B2C766 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		0CFD554A1BC029B100B2C766 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD55471BC029B100B2C766 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		AA8FFF9564C90096E2D63A9F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D01B3431051821B8A6E3116 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AA8FFF9564C90096E2D63A9F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D01B3431051821B8A6E3116 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,7 +213,7 @@
 				0CD172CF1BC02486003F5297 /* Resources */,
 				51DEA714CDCAB12BCA722F20 /* Embed Pods Frameworks */,
 				9D2F6E0AAC30B8DCDE7780A7 /* Copy Pods Resources */,
-				0C5746701BC15B9100C9313A /* ShellScript */,
+				E492B03E1BDAAB9900617C2B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -333,19 +333,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C5746701BC15B9100C9313A /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/Fabric.framework/run\" efd1ca2b2318e58821238464fa1201ed12641c25 4d016512af812bd931c602910cc7e50b0e5009d686f018b86bec077b8d217154";
-		};
 		51DEA714CDCAB12BCA722F20 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,6 +377,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		E492B03E1BDAAB9900617C2B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 43ab9ea0d228fd2328dc9a2098812deda29bc839 ce8d79b5bd7fac6af07deea425395977c75fbe2261b35dc400a7cd7cbc69adc0";
 		};
 /* End PBXShellScriptBuildPhase section */
 
